@@ -1,0 +1,15 @@
+/* reset */
+body, p, ul { margin:0; padding:0; }
+li { list-style:none; }
+a { text-decoration:none; }
+body { font-size:12px; font-family:"微软雅黑"; }
+/* wrap */
+#wrap { width:906px; margin:0 auto; margin-top:50px; }
+#wrap .tabNav { width:906px; height:42px; margin:0 auto; }
+#wrap .tabNav .tabLi { float:left; }
+#wrap .tabNav .firstLi { border-left:1px solid #6F0; }
+#wrap .tabNav .tabA { display:block; width:180px; line-height:40px; border:1px solid #6F0; border-left:none; text-align:center; color:#333; }
+#wrap .tabNav .active { display:block; width:180px; line-height:41px; border:1px solid #6F0; border-left:none; border-bottom:none;  text-align:center; color:#fff; background:#ccc; }
+#wrap .tabNav .tabA:hover { background:#ccc; color:#fff; line-height:41px; border:1px solid #6F0; border-left:none; border-bottom:none; }
+#wrap .con { position: relative; }
+#wrap .con div { position:absolute; top:0;left:0; width:904px; height:400px; border: 1px solid #6F0; border-top:none; }
